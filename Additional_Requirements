@@ -1,0 +1,11 @@
+1. Create Virtual Environment & Activate it put the code there.
+# Windows
+python -m venv tf
+tf\Scripts\activate
+
+# Linux/Mac
+python3 -m venv tf
+source tf/bin/activate
+
+2. Download YOLOV8 Pretrained and put it in the same environment.
+https://github.com/lindevs/yolov8-face
