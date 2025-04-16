@@ -12,7 +12,7 @@ A real-time intelligent surveillance system using OpenCV, YOLOv8, and FaceNet to
 - 🗂️ Face registration and dataset management
 - 🖼️ GUI built with **Tkinter**
 - ⚠️ Alert or highlight unknown individuals
-
+- ⚡ Automatic GPU/CPU switching — uses GPU if available, else falls back to CPU
 ---
 
 ## 🛠️ Tech Stack
