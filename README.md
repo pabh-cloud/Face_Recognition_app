@@ -42,11 +42,22 @@ A real-time intelligent surveillance system using OpenCV, YOLOv8, and FaceNet to
 🚀 Getting Started
 
 1️⃣ Create Virtual Environment & Activate It
+
 On Windows:
+
 python -m venv tf
+
 tf\Scripts\activate
 
+On Linux / macOS:
+
+python3 -m venv tf
+
+source tf/bin/activate
+
+
 2️⃣ Download YOLOv8 Face Detection Model
+
 Download the pretrained YOLOv8 model for face detection from the following GitHub repository:
 
 🔗 YOLOv8 Face Detection – lindevs/yolov8-face
@@ -54,6 +65,7 @@ Download the pretrained YOLOv8 model for face detection from the following GitHu
 Clone or download the model weights and place them in your project directory or an accessible location within your environment.
 
 3️⃣ Install Required Libraries
+
 Once your virtual environment is active, install all the required Python packages:
 
 pip install -r requirements.txt
