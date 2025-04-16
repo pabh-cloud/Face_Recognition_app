@@ -39,3 +39,5 @@ A real-time intelligent surveillance system using OpenCV, YOLOv8, and FaceNet to
 
 4. Alert on Outsiders: Unknown faces are tagged as Outsiders and automatically saved for review.
 
+To download required modules:
+pip install -r requirements.txt
