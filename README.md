@@ -1,4 +1,4 @@
-"# Face_Recognition_app" 
+
 # 🔐 Smart Security Camera System with Face Recognition and YOLO
 
 A real-time intelligent surveillance system using OpenCV, YOLOv8, and FaceNet to identify and differentiate **insiders** (authorized individuals) from **outsiders** (unregistered or unknown individuals). Designed for secure areas such as labs, homes, or offices.
@@ -39,5 +39,23 @@ A real-time intelligent surveillance system using OpenCV, YOLOv8, and FaceNet to
 
 4. Alert on Outsiders: Unknown faces are tagged as Outsiders and automatically saved for review.
 
-To download required modules:
+🚀 Getting Started
+
+1️⃣ Create Virtual Environment & Activate It
+On Windows:
+python -m venv tf
+tf\Scripts\activate
+
+2️⃣ Download YOLOv8 Face Detection Model
+Download the pretrained YOLOv8 model for face detection from the following GitHub repository:
+
+🔗 YOLOv8 Face Detection – lindevs/yolov8-face
+
+Clone or download the model weights and place them in your project directory or an accessible location within your environment.
+
+3️⃣ Install Required Libraries
+Once your virtual environment is active, install all the required Python packages:
+
 pip install -r requirements.txt
+
+This will install OpenCV, PyTorch, YOLO, FaceNet, and other essential libraries used in the project.
